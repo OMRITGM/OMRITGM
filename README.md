@@ -1,10 +1,21 @@
 <h1 align="center">Omri Elcharizi</h1>
-<p align="center">System Administrator building the bridge to DevOps.</p>
+
+<p align="center">
+  <a href="https://omrielcharizi.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=3A9BC7&center=true&vCenter=true&width=560&lines=System+Administrator+building+the+bridge+to+DevOps;Proxmox+%2B+Terraform+%2B+Ansible%2C+run+like+production;I+maintain+the+server+and+write+the+UI+that+talks+to+it" alt="typing tagline"></a>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/omri-elcharizi-788a931a9"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:omri7779@gmail.com"><img src="https://img.shields.io/badge/Email-omri7779%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://omrielcharizi.com"><img src="https://img.shields.io/badge/Portfolio-omrielcharizi.com-3a9bc7?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/github-contribution-grid-snake.svg">
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
 ---
@@ -46,7 +57,7 @@ Proxmox VE, single node, 15 isolated LXC containers, one RTX 3060 passed through
 
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=OmriTGM&show_icons=true&theme=dark&hide_border=true" alt="GitHub stats" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OmriTGM&theme=dark&hide_border=true" alt="GitHub streak" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmriTGM&layout=compact&theme=dark&hide_border=true" alt="Top languages" height="165">
 </p>
 
 ## Looking for
