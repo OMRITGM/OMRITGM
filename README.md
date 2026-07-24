@@ -55,9 +55,8 @@ Proxmox VE, single node, 15 isolated LXC containers, one RTX 3060 passed through
 
 ## GitHub stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=OmriTGM&show_icons=true&theme=dark&hide_border=true" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmriTGM&layout=compact&theme=dark&hide_border=true" alt="Top languages" height="165">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/metrics.svg" alt="GitHub metrics">
 </p>
 
 ## Looking for
