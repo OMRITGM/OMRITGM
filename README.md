@@ -43,7 +43,11 @@ n8n polls Gmail every 15 minutes, sends each new email to a local LLM (qwen3:14b
 
 ## Home lab
 
-Proxmox VE, single node, 15 isolated LXC containers, one RTX 3060 passed through for local inference. Scheduled backups, SMART monitoring, a reverse proxy in front of it. Full write-up and incident postmortems (driver mismatches, mount misconfigurations, the usual) at [omrielcharizi.com](https://omrielcharizi.com).
+<p align="center">
+  <img src="assets/homelab-architecture.svg" alt="Proxmox homelab architecture: host with RTX 3060 passthrough, 15 LXC containers grouped into AI/automation, media stack, infra/platform, and home">
+</p>
+
+Single node, 15 isolated LXC containers, one RTX 3060 passed through for local inference. Scheduled backups, SMART monitoring, a reverse proxy in front of every service. Full write-up and incident postmortems (driver mismatches, mount misconfigurations, the usual) at [omrielcharizi.com](https://omrielcharizi.com).
 
 ## Looking for
 

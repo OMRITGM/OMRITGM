@@ -1,0 +1,63 @@
+<svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,Consolas,monospace">
+  <rect width="960" height="420" fill="#0b0d10"/>
+
+  <!-- title -->
+  <text x="30" y="36" fill="#e8e9e7" font-size="16" font-weight="700">Proxmox VE homelab &#8212; single node, 15 LXC containers</text>
+  <text x="30" y="56" fill="#6b7280" font-size="12">bare metal &#8594; pve &#8594; isolated services, one per container</text>
+
+  <!-- host box -->
+  <rect x="30" y="80" width="900" height="50" rx="6" fill="none" stroke="#3a9bc7" stroke-width="1.5"/>
+  <text x="48" y="110" fill="#3a9bc7" font-size="13" font-weight="700">host: pve</text>
+  <text x="200" y="110" fill="#9aa3ab" font-size="12">Ryzen/x86 &#183; RTX 3060 (12GB, PCIe passthrough) &#183; Storage-2TB + local-lvm</text>
+
+  <!-- category boxes -->
+  <g>
+    <rect x="30" y="150" width="215" height="240" rx="6" fill="#12151a" stroke="#2a2f35"/>
+    <text x="46" y="176" fill="#f0a066" font-size="12" font-weight="700">AI &#183; AUTOMATION</text>
+    <text x="46" y="200" fill="#e8e9e7" font-size="12">ollama</text>
+    <text x="46" y="216" fill="#6b7280" font-size="10.5">local LLM &#183; GPU passthrough</text>
+    <text x="46" y="238" fill="#e8e9e7" font-size="12">lobehub</text>
+    <text x="46" y="254" fill="#6b7280" font-size="10.5">chat UI for ollama</text>
+    <text x="46" y="276" fill="#e8e9e7" font-size="12">n8n</text>
+    <text x="46" y="292" fill="#6b7280" font-size="10.5">workflow engine &#183; gmail-classifier</text>
+  </g>
+
+  <g>
+    <rect x="260" y="150" width="215" height="240" rx="6" fill="#12151a" stroke="#2a2f35"/>
+    <text x="276" y="176" fill="#f0a066" font-size="12" font-weight="700">MEDIA STACK</text>
+    <text x="276" y="200" fill="#e8e9e7" font-size="12">jellyfin</text>
+    <text x="276" y="216" fill="#6b7280" font-size="10.5">media server</text>
+    <text x="276" y="238" fill="#e8e9e7" font-size="12">sonarr &#183; radarr &#183; bazarr</text>
+    <text x="276" y="254" fill="#6b7280" font-size="10.5">library management</text>
+    <text x="276" y="276" fill="#e8e9e7" font-size="12">prowlarr &#183; flaresolverr</text>
+    <text x="276" y="292" fill="#6b7280" font-size="10.5">indexers</text>
+    <text x="276" y="314" fill="#e8e9e7" font-size="12">qbittorrent &#183; seerr</text>
+    <text x="276" y="330" fill="#6b7280" font-size="10.5">downloads &#183; requests</text>
+  </g>
+
+  <g>
+    <rect x="490" y="150" width="215" height="240" rx="6" fill="#12151a" stroke="#2a2f35"/>
+    <text x="506" y="176" fill="#f0a066" font-size="12" font-weight="700">INFRA &#183; PLATFORM</text>
+    <text x="506" y="200" fill="#e8e9e7" font-size="12">docker (Portainer)</text>
+    <text x="506" y="216" fill="#6b7280" font-size="10.5">general compose stacks</text>
+    <text x="506" y="238" fill="#e8e9e7" font-size="12">homarr</text>
+    <text x="506" y="254" fill="#6b7280" font-size="10.5">dashboard</text>
+    <text x="506" y="276" fill="#e8e9e7" font-size="12">bambuddy</text>
+    <text x="506" y="292" fill="#6b7280" font-size="10.5">3D printer fleet</text>
+  </g>
+
+  <g>
+    <rect x="720" y="150" width="210" height="240" rx="6" fill="#12151a" stroke="#2a2f35"/>
+    <text x="736" y="176" fill="#f0a066" font-size="12" font-weight="700">HOME</text>
+    <text x="736" y="200" fill="#e8e9e7" font-size="12">homeassistant</text>
+    <text x="736" y="216" fill="#6b7280" font-size="10.5">automation &#183; MQTT</text>
+  </g>
+
+  <!-- connectors from host to each group -->
+  <path d="M137 130 L137 150" stroke="#3a9bc7" stroke-width="1.5" fill="none"/>
+  <path d="M367 130 L367 150" stroke="#3a9bc7" stroke-width="1.5" fill="none"/>
+  <path d="M597 130 L597 150" stroke="#3a9bc7" stroke-width="1.5" fill="none"/>
+  <path d="M825 130 L825 150" stroke="#3a9bc7" stroke-width="1.5" fill="none"/>
+
+  <text x="30" y="412" fill="#6b7280" font-size="10.5">scheduled vzdump backups &#183; SMART monitoring &#183; reverse proxy in front of every service</text>
+</svg>
