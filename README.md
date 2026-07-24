@@ -35,8 +35,8 @@ I maintain the servers and I write the interfaces that talk to them, so I debug 
 **[homelab-as-code](https://github.com/OmriTGM/homelab-as-code)**
 Terraform provisions 15 LXC containers from one data map, Ansible configures them, and an exporter I wrote publishes state to Prometheus. The `containers` map that creates a container is the same one that labels its metrics, so the lab and its monitoring can't drift apart. 23 tests, five documented ADRs, gitleaks in CI, and a known-limitations section that says what's actually still rough.
 
-**mail-classifier**
-n8n pulls incoming mail, sends it to a local LLM on an RTX 3060, and applies a label. Retry and batching for fault tolerance, a watchdog on `/healthz` every five minutes, zero API cost since the model runs at home.
+**[mail-classifier](https://github.com/OmriTGM/mail-classifier)**
+n8n polls Gmail every 15 minutes, sends each new email to a local LLM (qwen3:14b) on an RTX 3060, and applies a matching label. The classify request retries twice with a 5-second gap and continues on failure, so one bad response doesn't stall the queue. Zero API cost since the model runs at home.
 
 ## Home lab
 
