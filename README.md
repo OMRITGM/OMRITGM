@@ -53,12 +53,6 @@ n8n polls Gmail every 15 minutes, sends each new email to a local LLM (qwen3:14b
 
 Proxmox VE, single node, 15 isolated LXC containers, one RTX 3060 passed through for local inference. Scheduled backups, SMART monitoring, a reverse proxy in front of it. Full write-up and incident postmortems (driver mismatches, mount misconfigurations, the usual) at [omrielcharizi.com](https://omrielcharizi.com).
 
-## GitHub stats
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/metrics.svg" alt="GitHub metrics">
-</p>
-
 ## Looking for
 
 DevOps, System Administration, NOC, or IT infrastructure: a team where I can build, break things in a controlled environment, and fix them down to the root cause.
