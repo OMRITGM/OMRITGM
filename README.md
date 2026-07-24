@@ -10,14 +10,6 @@
   <a href="https://omrielcharizi.com"><img src="https://img.shields.io/badge/Portfolio-omrielcharizi.com-3a9bc7?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/github-contribution-grid-snake.svg">
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/OmriTGM/OmriTGM/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
 ---
 
 Three years as a systems technician and team lead in an operational Air Force environment: Windows Server, Active Directory, VMware vSphere, and endpoint security for hundreds of users under SLA, where a mistake reaches real people fast. I'm moving that discipline into DevOps: a Proxmox homelab run the same way production should be, Infrastructure-as-Code, and an AWS Solutions Architect certification in progress.
@@ -52,12 +44,6 @@ n8n polls Gmail every 15 minutes, sends each new email to a local LLM (qwen3:14b
 ## Home lab
 
 Proxmox VE, single node, 15 isolated LXC containers, one RTX 3060 passed through for local inference. Scheduled backups, SMART monitoring, a reverse proxy in front of it. Full write-up and incident postmortems (driver mismatches, mount misconfigurations, the usual) at [omrielcharizi.com](https://omrielcharizi.com).
-
-## GitHub stats
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/OmriTGM/OmriTGM/master/dist/metrics.svg" alt="GitHub metrics">
-</p>
 
 ## Looking for
 
